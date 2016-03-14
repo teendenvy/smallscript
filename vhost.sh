@@ -19,7 +19,7 @@ echo "========================================================================="
 if [ "$1" != "--help" ]; then
 
 	echo "Please input config name:"
-	read -p configname
+	read configname
 	domain="www.lnmp.org"
 	echo "Please input domain:"
 	read -p "(Default domain: www.lnmp.org):" domain
